@@ -24,7 +24,7 @@ const FixedUi = () => {
       <div id='fixedUi'   ref={fixedUiRef}>
         <NavBar/>
         <FadeInX display={isLeftTopOpen}>
-          <div className="leftTop absolute left-10 top-10 size-20 border-2 border-amber-400 ">左上</div>
+          <div className="leftTop absolute left-10 top-10 size-20 border-2 border-amber-400 ">左上1111</div>
           {/* <div className="leftTop absolute left-10 top-20 size-20 border-2 border-amber-400">左上</div>
           <div className="leftTop absolute left-10 top-30 size-20 border-2 border-amber-400">左上</div> */}
         </FadeInX>

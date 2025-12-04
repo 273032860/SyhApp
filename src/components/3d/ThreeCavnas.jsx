@@ -10,7 +10,7 @@ const ThreeCavnas = () => {
         <Canvas
           shadows 
           eventSource={document.getElementById("root")} 
-          eventPrefix="client" 
+          // eventPrefix="client" 
           gl={(props) => {
           extend(THREE)
           const renderer = new THREE.WebGPURenderer({ 
