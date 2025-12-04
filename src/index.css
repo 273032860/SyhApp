@@ -80,6 +80,27 @@ body,
 @utility jHL-8xl {
   @apply font-jHL text-8xl;
 }
+/* 基础毛玻璃 */
+@utility glass {
+  @apply backdrop-blur-md bg-white/20 border border-white/30 rounded-xl p-6;
+}
+/* 中度毛玻璃 */
+@utility glass-medium {
+  @apply backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-2xl p-6;
+}
+/* 强度毛玻璃 */
+@utility glass-strong {
+  @apply backdrop-blur-xl bg-white/10 border border-white/30 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] rounded-2xl p-6;
+}
+/* 深色毛玻璃 */
+@utility glass-light {
+  @apply backdrop-blur-lg bg-black/30 border border-white/10 rounded-xl shadow-xl p-6;
+}
+/* 超薄毛玻璃（像 macOS 控制中心） */
+@utility glass-ultrathin {
+  @apply backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-4;
+}
+
 
 
 
