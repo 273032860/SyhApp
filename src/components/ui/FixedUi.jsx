@@ -33,7 +33,7 @@ const FixedUi = () => {
           <div className="leftBottom absolute bottom-10 left-10">左下</div>
         </FadeInX>
         <div className="rightBottom absolute bottom-10 right-10" onClick={() => lenis.scrollTo(0)}>右下</div>
-        <div className="rightBottom absolute bottom-10 left-10" >左下</div>
+        <div className="rightBottom absolute bottom-10 left-10" >左下123123</div>
          
         
       </div>
