@@ -3,7 +3,7 @@
   
   // 🔒 隐藏不想显示的文件夹
   "files.exclude": {
-    "node_modules": true,
+    // "node_modules": true,
     "package-lock.json": true,
     "pnpm-lock.yaml": true,
     "yarn.lock": true,
